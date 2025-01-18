@@ -77,3 +77,8 @@ The project follows the **Model-View-Controller (MVC)** architecture for modular
 2. Run the following command to launch the interactive CLI:
    ```bash
    java Main -text
+
+### Script file Execution
+1. Prepare a script file (e.g., script.txt) with the commands for loading, manipulating, and saving images.
+2. Run the following command:
+   java Main -text
