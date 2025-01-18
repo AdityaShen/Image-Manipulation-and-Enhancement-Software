@@ -92,6 +92,35 @@ The project follows the **Model-View-Controller (MVC)** architecture for modular
       java Main
 3. The graphical user interface will open, allowing you to perform image manipulations using buttons, sliders, and dialogs.
 
+
+## Output Images
+
+Output images of various operations can be found in the _out_ folder <br/>
+
+Below are sample outputs for various image manipulation operations on the GUI:
+
+###Brighten:
+![image](https://github.com/user-attachments/assets/f175dd9e-089e-454c-86c3-d1e953eabf70)
+
+###Sepia:
+
+![image](https://github.com/user-attachments/assets/12a53c19-a564-411e-aa74-424b7b84536c)
+
+###Horizontal Flip:
+
+![image](https://github.com/user-attachments/assets/f750005c-9de7-4933-9a4d-f0d4a6be0086)
+
+###Vertical Flip:
+
+![image](https://github.com/user-attachments/assets/a8feac4f-4e46-45d7-8b6d-7e6b8203c4b3)
+
+###Histogram at the bottom right of the screen, continuously updated in real time with every transformation:
+
+![image](https://github.com/user-attachments/assets/24b87bc6-cb7f-4dc5-adf3-4e84db346598)
+
+
+
+
 ## Image citation
 
 Bird Image: [Blue Bird Vector](https://pngtree.com/freepng/blue-bird-vector-or-color-illustration_5266726.html) <br/>
