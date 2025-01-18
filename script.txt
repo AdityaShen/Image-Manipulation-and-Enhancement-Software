@@ -1,0 +1,212 @@
+# Load the original image
+load test-images/lake.jpg lake
+
+# Apply sepia effect to lake
+sepia lake lakeSepia
+save lakeSepia lakeSepia.jpg
+
+sepia lake lakeMasked lakeSepiaMasked
+save lakeSepiaMasked lakeSepiaMasked.jpg
+
+# Downscale the lake image
+downscale lake downscaledImage 200 200
+save downscaledImage downscaled.jpg
+
+# Apply sepia effect with masking
+sepia lake lakeMasked lakeSepiaMasked
+save lakeSepiaMasked lakeSepiaMasked.jpg
+
+# Load the original image for additional operations
+load test-images/lake.jpg sacheth
+
+# Visualize blue component
+blue-component sacheth sacheth-blue
+save sacheth-blue sacheth-blue.jpg
+
+# Visualize green component
+green-component sacheth sacheth-green
+save sacheth-green sacheth-green.jpg
+
+# Visualize red component
+red-component sacheth sacheth-red
+save sacheth-red sacheth-red.jpg
+
+# Blur the image
+blur sacheth sacheth-blurred
+save sacheth-blurred sacheth-blurred.jpg
+
+# Brighten the image by 30
+brighten 30 sacheth sacheth-brightened
+save sacheth-brightened sacheth-brightened.jpg
+
+# Convert to sepia
+sepia sacheth sacheth-sepia
+save sacheth-sepia sacheth-sepia.jpg
+
+# Flip the image horizontally
+horizontal-flip sacheth sacheth-flipped
+save sacheth-flipped sacheth-flipped.jpg
+
+# Flip the image vertically
+vertical-flip sacheth sacheth-vert-flip
+save sacheth-vert-flip sacheth-vert-flip.jpg
+
+# Sharpen the image
+sharpen sacheth sacheth-sharpened
+save sacheth-sharpened sacheth-sharpened.jpg
+
+# RGB split (splitting into R, G, B components)
+rgb-split sacheth sacheth-red-split sacheth-green-split sacheth-blue-split
+save sacheth-red-split sacheth-red-split.jpg
+save sacheth-green-split sacheth-green-split.jpg
+save sacheth-blue-split sacheth-blue-split.jpg
+
+# RGB combine (recombining R, G, B components)
+rgb-combine sacheth-rgb-combined sacheth-red-split sacheth-green-split sacheth-blue-split
+save sacheth-rgb-combined sacheth-rgb-combined.jpg
+
+# Brighten the image by -30 (darkening)
+brighten -30 sacheth sacheth-darkened
+save sacheth-darkened sacheth-darkened.jpg
+
+# Visualize value component
+value-component sacheth sacheth-value
+save sacheth-value sacheth-value.jpg
+
+# Visualize intensity component
+intensity-component sacheth sacheth-intensity
+save sacheth-intensity sacheth-intensity.jpg
+
+# Visualize luma component
+luma-component sacheth sacheth-luma
+save sacheth-luma sacheth-luma.jpg
+
+# Perform multiple operations in a row
+brighten 50 sacheth-luma sacheth-luma-brightened
+vertical-flip sacheth-luma-brightened sacheth-luma-brightened-vertflip
+save sacheth-luma-brightened-vertflip sacheth-luma-brightened-vertflip.jpg
+
+# Apply color correction to lake
+color-correct lake colorCorrectedlake
+save colorCorrectedlake colorCorrectedlake.png
+
+# Generate histogram of lake image
+histogram lake histogramImage
+save histogramImage histogramImage.png
+
+# Adjust levels of lake image
+levels-adjust 20 100 255 lake leveladjustedlake
+save leveladjustedlake leveladjustedlake.png
+
+# Compress lake image
+compress lake compressedImage 90
+save compressedImage compressedImage.png
+
+# Split and blur the lake image
+blur lake lakeblursplit split 50
+save lakeblursplit lakeblursplit.jpg
+
+# Load the original image
+load test-images/bird.jpg bird
+
+# Apply sepia effect to bird
+sepia bird birdSepiaBird
+save birdSepiaBird birdSepiaBird.jpg
+
+# Downscale the bird image
+downscale bird downscaledImageBird 200 200
+save downscaledImageBird downscaledBird.jpg
+
+# Apply sepia effect with masking
+sepia bird birdMaskedBird birdSepiaMaskedBird
+save birdSepiaMaskedBird birdSepiaMaskedBird.jpg
+
+# Load the original image for additional operations
+load test-images/bird.jpg sachethBird
+
+# Visualize blue component
+blue-component sachethBird sachethBird-blue
+save sachethBird-blue sachethBird-blue.jpg
+
+# Visualize green component
+green-component sachethBird sachethBird-green
+save sachethBird-green sachethBird-green.jpg
+
+# Visualize red component
+red-component sachethBird sachethBird-red
+save sachethBird-red sachethBird-red.jpg
+
+# Blur the image
+blur sachethBird sachethBird-blurred
+save sachethBird-blurred sachethBird-blurred.jpg
+
+# Brighten the image by 30
+brighten 30 sachethBird sachethBird-brightened
+save sachethBird-brightened sachethBird-brightened.jpg
+
+# Convert to sepia
+sepia sachethBird sachethBird-sepia
+save sachethBird-sepia sachethBird-sepia.jpg
+
+# Flip the image horizontally
+horizontal-flip sachethBird sachethBird-flipped
+save sachethBird-flipped sachethBird-flipped.jpg
+
+# Flip the image vertically
+vertical-flip sachethBird sachethBird-vert-flip
+save sachethBird-vert-flip sachethBird-vert-flip.jpg
+
+# Sharpen the image
+sharpen sachethBird sachethBird-sharpened
+save sachethBird-sharpened sachethBird-sharpened.jpg
+
+# RGB split (splitting into R, G, B components)
+rgb-split sachethBird sachethBird-red-split sachethBird-green-split sachethBird-blue-split
+save sachethBird-red-split sachethBird-red-split.jpg
+save sachethBird-green-split sachethBird-green-split.jpg
+save sachethBird-blue-split sachethBird-blue-split.jpg
+
+# RGB combine (recombining R, G, B components)
+rgb-combine sachethBird-rgb-combined sachethBird-red-split sachethBird-green-split sachethBird-blue-split
+save sachethBird-rgb-combined sachethBird-rgb-combined.jpg
+
+# Brighten the image by -30 (darkening)
+brighten -30 sachethBird sachethBird-darkened
+save sachethBird-darkened sachethBird-darkened.jpg
+
+# Visualize value component
+value-component sachethBird sachethBird-value
+save sachethBird-value sachethBird-value.jpg
+
+# Visualize intensity component
+intensity-component sachethBird sachethBird-intensity
+save sachethBird-intensity sachethBird-intensity.jpg
+
+# Visualize luma component
+luma-component sachethBird sachethBird-luma
+save sachethBird-luma sachethBird-luma.jpg
+
+# Perform multiple operations in a row
+brighten 50 sachethBird-luma sachethBird-luma-brightened
+vertical-flip sachethBird-luma-brightened sachethBird-luma-brightened-vertflip
+save sachethBird-luma-brightened-vertflip sachethBird-luma-brightened-vertflip.jpg
+
+# Apply color correction to bird
+color-correct bird colorCorrectedbird
+save colorCorrectedbird colorCorrectedbird.png
+
+# Generate histogram of bird image
+histogram bird histogramImageBird
+save histogramImageBird histogramImageBird.png
+
+# Adjust levels of bird image
+levels-adjust 20 100 255 bird leveladjustedbird
+save leveladjustedbird leveladjustedbird.png
+
+# Compress bird image
+compress bird compressedImageBird 90
+save compressedImageBird compressedImageBird.png
+
+# Split and blur the bird image
+blur bird birdblursplitBird split 50
+save birdblursplitBird birdblursplitBird.jpg
