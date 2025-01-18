@@ -94,7 +94,7 @@ The project follows the **Model-View-Controller (MVC)** architecture for modular
 
 ## Image citation
 
-Bird Image: [Blue Bird Vector](https://pngtree.com/freepng/blue-bird-vector-or-color-illustration_5266726.html)
+Bird Image: [Blue Bird Vector](https://pngtree.com/freepng/blue-bird-vector-or-color-illustration_5266726.html) <br/>
 Lake Image: Personal camera
 
 ## Author's note:
