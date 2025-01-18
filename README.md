@@ -81,4 +81,25 @@ The project follows the **Model-View-Controller (MVC)** architecture for modular
 ### Script file Execution
 1. Prepare a script file (e.g., script.txt) with the commands for loading, manipulating, and saving images.
 2. Run the following command:
-   java Main -text
+   ```bash
+   java Main -file <scriptFileName>.txt
+3. The program will process each command in the script file and save the results to the specified output directory.
+
+### Launching the GUI
+1. Double click / run the .jar executable from the _src_ folder
+2. Alternatively, run the following command:
+   ```bash
+      java Main
+3. The graphical user interface will open, allowing you to perform image manipulations using buttons, sliders, and dialogs.
+
+## Image citation
+
+Bird Image: [Blue Bird Vector](https://pngtree.com/freepng/blue-bird-vector-or-color-illustration_5266726.html)
+Lake Image: Personal camera
+
+## Author's note:
+
+This project is a collaborative effort for academic purposes. Contributions and feedback are welcome for enhancing the tool further!
+
+
+
